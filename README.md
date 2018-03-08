@@ -4,7 +4,7 @@ TestMaze
 * 신경망 기반의 강화 학습 엔진 테스트를 위한 기본적인 샘플
 
  + 지정된 지형 내에서 최적의 이동경로를 강화학습으로 생성한다.
- + 각 위치에서 다음 이동을 (state, action) 으로 정의 하고 Q-learing 알고리즘으로 Q 값을 얻고 Q-table 을 신경망에 학습 시킨다.
+ + 각 위치에서 다음 이동을 (state, action) 으로 정의 하고 Q-learing 알고리즘으로 Q(이동 가중치)값을 얻고 Q-table 을 신경망에 학습 시킨다.
  + (관련 기술 참조: <https://hunkim.github.io/ml/>)
 
 
