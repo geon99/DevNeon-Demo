@@ -7,8 +7,8 @@ TestMaze
  + 각 위치에서 다음 이동을 (state, action) 으로 정의 하고 Q-learing 알고리즘으로 Q(quality;reward) 값을 얻고 Q-table 을 신경망에 학습 시킨다.
  + (관련 기술 참조: <https://hunkim.github.io/ml/>)
  
- ![설명](https://raw.github.com/geon99/DevNeon-Demo/master/image/break%20desc2.png)
- 
+![설명](https://raw.github.com/geon99/DevNeon-Demo/master/image/maze%20desc2.png)
+
 
 TestBreakout
 ============
@@ -18,9 +18,9 @@ TestBreakout
  + 현재의 볼의 위치와 방향에 대한 바(bar)의 이동을 제어한다.
  + 볼의 위치와 방향, 바의 위치를 상태(state)로 정의, 다음 바의 이동을 동작(action)으로 정의,
   TestMaze 샘플과 같은 방식으로 Q-table 을 신경망에 학습 시킨다.
-  
- ![설명](https://raw.github.com/geon99/DevNeon-Demo/master/image/conv%20desc2.png)
  
+ ![설명](https://raw.github.com/geon99/DevNeon-Demo/master/image/break%20desc2.png)
+
 
 TestConvNet
 ===========
@@ -35,4 +35,4 @@ TestConvNet
  + 컨볼루션 필터 이미지를 시각화 표현
  + (관련 기술 참조: <https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html>)
  
- ![설명](https://raw.github.com/geon99/DevNeon-Demo/master/image/maze%20desc2.png)
+ ![설명](https://raw.github.com/geon99/DevNeon-Demo/master/image/conv%20desc2.png)
