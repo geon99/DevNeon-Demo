@@ -1,1 +1,1 @@
-{"param":{"random":true, "random_rate":9, "learning_rate":7, "momentum":2, "batch_size":10, "l2_decay":10, "gamma":10, "recent":10}}
+{"param":{"random":true, "random_rate":5, "learning_rate":10, "momentum":10, "batch_size":10, "l2_decay":10, "gamma":10, "recent":10}}
